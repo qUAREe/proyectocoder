@@ -599,6 +599,6 @@ p{
     @media screen and (max-width:610px)
     {
         .divfooter{
-            letter-spacing: 10px;
+            letter-spacing: 9px;
         }
     }
