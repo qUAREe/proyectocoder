@@ -32,7 +32,6 @@ p{
     font-size: 25px;
     text-decoration: none;
     color: rgba(12, 180, 226, 0.685);
-    
 }
 
 .logo{
@@ -45,8 +44,10 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-evenly;
 }
 .nav{
+    display: inline-block;
     padding:1rem;
     font-size: 15px;
 }
