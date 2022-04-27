@@ -6,6 +6,7 @@
 
 html{
     scroll-behavior: smooth;
+
 }
 
 p{
@@ -88,13 +89,13 @@ p{
 .container1 p{
     text-align: center;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 200;
 }
 
 .seccion1{
-    height: 100vh;
+    height: 1000px;
     background-color: #fff;
-    margin-bottom: 20em;
+
 }
 
 .grid{
@@ -440,52 +441,107 @@ p{
     transform: scale(1.1);
 }
 
-.footer{ 
-    color: ;
-    border-top: 1px solid black;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 200px;
-    text-align:center;
+/*FOOTER*/
+
+
+
+.container-fluid{
+    background-color: #030303;
 }
 
-.footer h3{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 150;
-}
 
-.divfooter{
-    padding-top: 50;
+.col{
+    padding: 2em 0 0 2em;
+    text-align: left;
+    height: 500px;
+    background-color: #030303;
+}
+.col p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+.col h3{
+    color: rgb(255, 254, 254);
+    padding-bottom: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: lowercase;
     font-size: 50px;
-    letter-spacing: 50px;
 }
 
+.iconos a{
+    display: inline-block;
+}
 
-.up{
-    font-size: 30px;
+.iconos i{
     color: rgba(12, 180, 226, 0.685);
     text-decoration: none;
-    height: 40px;
-    width: 40px;
-    background-color: rgb(222, 222, 222);
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgb(49, 234, 227);
-    transition: all 0.5s;
+    letter-spacing: 40px;
+    padding: 1em 0 2em 0;
+    font-size: 30px;
 }
 
-.up:hover{
-    transform: scale(1.5);
+.info{
+    text-align: center;
 }
 
+.info h3{
+    border-bottom: 1px solid  rgba(12, 180, 226, 0.685);
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 50;
+}
+.info p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    margin:10px;
+    padding: 10px 15px 15px 30px;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.contacto h3{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-weight: 50;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 1px solid  rgba(12, 180, 226, 0.685);
+}
+.col h2{
+    font-weight: 100;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn{
+    background-color: rgba(12, 180, 226, 0.685); 
+    color:#fff;
+    font-weight: bold;
+    
+}
+
+.mb-3{
+    padding-right: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
 
 @media screen and (max-width:1000px){
+    .info h3{
+        border-top: 1px solid  rgba(12, 180, 226, 0.685);
+    }
+    .contacto h3{
+        border-top: 1px solid  rgba(12, 180, 226, 0.685);
+
+    }
+    .seccion1{
+        height: 100vh;
+    }
     .grid{
         width: 80%;
     }
@@ -498,12 +554,54 @@ p{
     .grid4{
         width: 80%;
     }
+    .row{
+        display: inline-block;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
 
+    .col h3{
+        text-align: center;
+    }
+    .col p{
+        text-align: center;
+    }
+    .col{
+        width: 100%;
+    }
 
-
+    .div1{
+        height: 200px;
+        text-align: center;
+        margin-bottom:12em;
+    }
+    .div2{
+        height: 350px;
+    }
+    .iconos i{
+        color: rgba(12, 180, 226, 0.685);
+        text-decoration: none;
+        letter-spacing: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .info p{
+        font-size: ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 2px;
+        text-align: center;
+        margin:10px;
+        padding: 10px 15px 15px 30px;
+    }
 }
 
 @media screen and (max-width:480px){
+
+    .seccion1{
+        height: 100vh;
+    }
     .grid{
         grid-template-areas: 
         "medias1 medias2 "
