@@ -72,15 +72,16 @@ p{
 }
 .main{
     margin-top: 8rem;
-    color:#000;
+    color:rgb(0, 0, 0);
 }
 
 
 .container1{
-    background-color: #fff;
+    background-color:#fff;
 }
 
 .container1 h1{
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     font-weight: lighter;
@@ -89,13 +90,13 @@ p{
 .container1 p{
     text-align: center;
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .seccion1{
-    height: 1000px;
-    background-color: #fff;
-
+    margin-top: auto;
+    width: 100%;
+    height: auto;
 }
 
 .grid{
@@ -107,7 +108,7 @@ p{
     grid-template-areas: 
     "medias1 medias2 medias3"
     "medias4 medias5 medias6";
-    margin: 4em auto;
+    margin: 1em auto;
     gap: 2em;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -340,7 +341,6 @@ p{
     padding-top: 20px;
     text-align: center;
     border-top: 1px solid black;
-    
 }
 
 .divns h2{
@@ -584,11 +584,10 @@ p{
         color: rgba(12, 180, 226, 0.685);
         text-decoration: none;
         letter-spacing: 50px;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     .info p{
-        font-size: ;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         letter-spacing: 2px;
         text-align: center;
