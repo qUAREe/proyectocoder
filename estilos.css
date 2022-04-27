@@ -81,16 +81,18 @@ p{
 }
 
 .container1 h1{
-    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: lighter;
+    
 }
 
 .container1 p{
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
+    padding-bottom: 2em;
 }
 
 .seccion1{
@@ -236,15 +238,15 @@ p{
 }
 
 .container2 h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 150;
 }
 
 .container2 p{
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 55;
 }
 
@@ -253,15 +255,15 @@ p{
 /*bottom.html*/
 
 .container3 h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 150;
 }
 
 .container3 p{
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 55;
 }
 
@@ -344,10 +346,11 @@ p{
 }
 
 .divns h2{
+    letter-spacing: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 150;
 }
 
 .divns p{
@@ -485,7 +488,7 @@ p{
 }
 
 .info h3{
-    border-bottom: 1px solid  rgba(12, 180, 226, 0.685);
+    border-bottom: 3px solid  rgba(12, 180, 226, 0.685);
     padding-bottom: 2em;
     padding-top: 2em;
     text-transform: uppercase;
@@ -510,7 +513,7 @@ p{
     font-weight: 50;
     text-transform: uppercase;
     font-size: 20px;
-    border-bottom: 1px solid  rgba(12, 180, 226, 0.685);
+    border-bottom: 3px solid  rgba(12, 180, 226, 0.685);
 }
 .col h2{
     font-weight: 100;
@@ -533,10 +536,12 @@ p{
 
 @media screen and (max-width:1000px){
     .info h3{
-        border-top: 1px solid  rgba(12, 180, 226, 0.685);
+        border-bottom: none;
+        border-top: 3px solid  rgba(12, 180, 226, 0.685);
     }
     .contacto h3{
-        border-top: 1px solid  rgba(12, 180, 226, 0.685);
+        border-bottom: none;
+        border-top: 3px solid  rgba(12, 180, 226, 0.685);
 
     }
     .seccion1{
