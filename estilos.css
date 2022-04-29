@@ -86,7 +86,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:inherit;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,6 +119,7 @@ p{
 }
 
 .container1{
+    margin-top: -5rem;
     background-color:rgb(33, 72, 156);
 }
 
@@ -580,12 +581,7 @@ p{
     }
     .contacto h3{
         border-bottom: none;
-        border-top: 3px solid  rgba(12, 180, 226, 0.685);
-
-    }
-    .seccion1{
-        height: 100vh;
-    }
+        border-top: 3px solid  rgba(12, 180, 226, 0.685);}
     .grid{
         width: 80%;
     }
@@ -693,7 +689,7 @@ p{
 
 
     .header{
-        height:120px;
+        height:130px;
     }
     
     .nav ul li{
@@ -704,13 +700,13 @@ p{
     }
 
     .princ h1{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .princ h1 span{
-        font-size: 7rem;
+        font-size: 6rem;
     }
     .princ p{
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     .container1 h1{
