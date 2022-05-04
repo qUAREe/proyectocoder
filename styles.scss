@@ -3,23 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 .navbar-expand-xs{
     display: none;
 }
-
 html{
     overflow-x:hidden ;
     scroll-behavior: smooth;
 }
-
 body{
     overflow-x:hidden ;
     z-index: 0;
     background-color:rgb(33, 72, 156);
 }
-
 p{
     margin-bottom: 1.5em;
 }
@@ -31,7 +26,6 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-
 .header{
     z-index: 1;
     height:65px;
@@ -41,21 +35,16 @@ p{
     top: 0;
     width: 100%;
 }
-
-
 .header div a{
     font-size:40px;
     text-decoration: none;
     color: rgba(12, 180, 226, 0.685);
 }
-
 .logo{
     padding-top: .5rem;
     font-family: 'Water Brush', cursive;
     font-size: 30px;
 }
-
-
 .nav{
     display: inline-block;
     padding:1rem;
@@ -70,7 +59,6 @@ p{
     display: inline-block;
     
 }
-
 .nav ul li a{
     color: #fff;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -89,7 +77,6 @@ p{
     margin-top:5rem ;
     color:rgb(0, 0, 0);
 }
-
 .princ{
     background-image: url(svg/okaaar.svg);
     background-repeat: no-repeat;
@@ -103,7 +90,6 @@ p{
     text-align: center;
     padding: 2rem;
 }
-
 .princ h1{
     font-family: 'Oswald', sans-serif;
     color: rgba(62, 187, 221, 0.685);
@@ -111,13 +97,11 @@ p{
     margin-bottom: 2rem;
     line-height: 1.2;
 }
-
 .princ h1 span{
     font-size: 13rem;
     font-family: 'Oswald', sans-serif;
     color: rgb(255, 255, 255);
 }
-
 .princ p{
     font-family: 'Bebas Neue', cursive;
     font-weight: 300;
@@ -126,12 +110,10 @@ p{
     letter-spacing: 2px;
     font-size: 1.3rem;
 }
-
 .container1{
     margin-top: -5rem;
     background-color:rgb(33, 72, 156);
 }
-
 .container1 h1{
     margin-top: 10rem;
     margin-bottom: 1rem;
@@ -141,19 +123,16 @@ p{
     text-transform: uppercase;
     
 }
-
 .container1 p{
     text-align: center;
     font-size: 15px;
     font-weight: 600;
     padding-bottom: 2em;
 }
-
 .seccion1{
     background-color:rgb(33, 72, 156);
     width: 100%;
 }
-
 .grid{
     display: grid;
     width: 60%;
@@ -167,7 +146,6 @@ p{
     gap: 2em;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 .medias{
     transition: all 10s;
 }
@@ -192,7 +170,6 @@ p{
 .medias7:hover{
     transform: scale(1.1);
 }
-
 /*Ajusto el tamaño de las imágenes para que ocupen el tamaño disponible en cada area de la grilla*/
 .grid img{
     width: 100%;
@@ -220,9 +197,7 @@ p{
 .medias6{
     grid-area: medias6;
 }
-
 /*TOP.HTML*/
-
 .grid2{
     display: grid;
     width: 60%;
@@ -236,22 +211,17 @@ p{
     gap: 3em;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 .grid2 img{
     width: 100%;
     box-shadow: 2px -2px 18px 1px rgba(0,0,0,0.75);
 }
-
 .grid2 img:hover{
     box-shadow: 2px 7px 40px 16px rgba(168, 235, 247, 0.463);
 }
-
 /*declaro las areas*/
-
 .buzos{
     transition: all 1s;
 }
-
 .buzos1:hover{
     transform: scale(1.1);
 }.buzos2:hover{
@@ -265,45 +235,35 @@ p{
 }.buzos6:hover{
     transform: scale(1.1);
 }
-
 .buzos1{
     grid-area: buzos1;
 }
-
 .buzos2{
     grid-area: buzos2;
 }
-
 .buzos3{
     grid-area: buzos3;
 }
-
 .buzos4{
     grid-area: buzos4;
 }
-
 .buzos5{
     grid-area: buzos5;
 }
-
 .buzos6{
     grid-area: buzos6;
 }
-
 .container2 h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 45px;
     text-align: center;
     text-transform: uppercase;
 }
-
 .container2 p{
     text-align: center;
     font-size: 15px;
     font-weight: 600;
 }
-
-
 
 /*bottom.html*/
 
@@ -313,21 +273,17 @@ p{
     text-align: center;
     text-transform: uppercase;
 }
-
 .container3 p{
     text-align: center;
     font-size: 15px;
     font-weight:600;
 }
 
-
-
 .grid3 img{
     width: 100%;
     box-shadow: 2px -2px 18px 1px rgba(0,0,0,0.75);
 
 }
-
 .grid3{
     display: grid;
     width: 60%;
@@ -344,12 +300,9 @@ p{
 .grid3 img:hover{
     box-shadow: 2px 7px 40px 16px rgba(168, 235, 247, 0.463);
 }
-
-
 .short{
     transition: all 1s;
 }
-
 .short1:hover{
     transform: scale(1.1);
 }.short2:hover{
@@ -363,7 +316,6 @@ p{
 }.short6:hover{
     transform: scale(1.1);
 }
-
 .short1{
     grid-area: short1;
 }
@@ -382,22 +334,17 @@ p{
 .short6{
     grid-area: short6;
 }
-
 /*New seasson Index*/
-
 .ns{
     margin-top: 10em;
     width: 100%;
     height: auto;
 }
-
-
 .divns{
     padding-top: 20px;
     text-align: center;
     border-top: 1px solid black;
 }
-
 .divns h2{
     letter-spacing: 10px;
     font-family: 'Bebas Neue', cursive;
@@ -405,13 +352,11 @@ p{
     text-align: center;
     text-transform: uppercase;
 }
-
 .divns p{
     text-align: center;
     font-size: 15px;
     font-weight: 600;
 }
-
 .grid4{
     display: grid;
     width:60%;
@@ -427,16 +372,13 @@ p{
     margin: 4em  auto;
     gap: 2em;
 }
-
 .grid4 img{
     width: 100%;
     box-shadow: 2px -2px 18px 1px rgba(0,0,0,0.75);
 }
-
 .grid4 img:hover{
     box-shadow: 2px 7px 40px 16px rgba(168, 235, 247, 0.463);
 }
-
 .ns1{
     grid-area: ns1;
 }
@@ -465,17 +407,14 @@ p{
     grid-area: ns9;
 }
 
-
 /*FOOTER*/
 
 .footer{
     background-color: #030303;
 }
-
 .containercolor{
     background-color: #030303;
 }
-
 .col{
     padding: 2em 0 0 2em;
     text-align: left;
@@ -493,11 +432,9 @@ p{
     text-transform: lowercase;
     font-size: 50px;
 }
-
 .iconos a{
     display: inline-block;
 }
-
 .iconos i{
     color: rgba(12, 180, 226, 0.685);
     text-decoration: none;
@@ -505,11 +442,9 @@ p{
     padding: 1em 0 2em 0;
     font-size: 30px;
 }
-
 .info{
     text-align: center;
 }
-
 .info h3{
     border-bottom: 3px solid  rgba(12, 180, 226, 0.685);
     padding-bottom: 2em;
@@ -525,11 +460,9 @@ p{
     margin:10px;
     padding: 10px 15px 15px 30px;
 }
-
 .contacto{
     text-align: center;
 }
-
 .contacto h3{
     padding-top: 2em;
     padding-bottom: 2em;
@@ -543,20 +476,17 @@ p{
     color: #fff;
     font-size: 15px;
 }
-
 .btn{
     background-color: rgba(12, 180, 226, 0.685); 
     color:#fff;
     font-weight: bold;
     
 }
-
 .mb-3{
     padding-right: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
 }
-
 @media screen and (max-width:1000px){
     .info h3{
         border-bottom: none;
