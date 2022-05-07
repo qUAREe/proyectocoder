@@ -6,10 +6,6 @@
           box-sizing: border-box;
 }
 
-.navbar-expand-xs {
-  display: none;
-}
-
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -53,7 +49,7 @@ p {
 .header div a {
   font-size: 40px;
   text-decoration: none;
-  color: rgba(12, 180, 226, 0.685);
+  color: color rgba(62, 187, 221, 0.685);
 }
 
 .logo {
@@ -124,7 +120,7 @@ p {
 
 .princ h1 {
   font-family: 'Oswald', sans-serif;
-  color: rgba(62, 187, 221, 0.685);
+  color: color rgba(62, 187, 221, 0.685);
   font-size: 10rem;
   margin-bottom: 2rem;
   line-height: 1.2;
@@ -704,11 +700,11 @@ p {
 @media screen and (max-width: 1000px) {
   .info h3 {
     border-bottom: none;
-    border-top: 3px solid rgba(12, 180, 226, 0.685);
+    border-top: 3px solid color rgba(62, 187, 221, 0.685);
   }
   .contacto h3 {
     border-bottom: none;
-    border-top: 3px solid rgba(12, 180, 226, 0.685);
+    border-top: 3px solid color rgba(62, 187, 221, 0.685);
   }
   .grid {
     width: 80%;
@@ -747,7 +743,7 @@ p {
     height: 350px;
   }
   .iconos i {
-    color: rgba(12, 180, 226, 0.685);
+    color: color rgba(62, 187, 221, 0.685);
     text-decoration: none;
     letter-spacing: 50px;
     font-size: 20px;
@@ -763,37 +759,6 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-  .navbar-expand-xs {
-    display: block;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
-  .header {
-    display: none;
-  }
-  .navbar-toggler {
-    border: none;
-  }
-  .navbar-dark .navbar-brand {
-    color: #0cb4e2;
-    font-family: 'Water Brush', cursive;
-    font-size: 35px;
-    margin-left: 2rem;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-  }
-  .navbar-dark .navbar-toggler {
-    color: black;
-  }
-  .bg-dark {
-    background-color: black !important;
-  }
   .seccion1 {
     height: 100vh;
   }
