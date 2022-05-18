@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@100&family=Koulen&family=Oswald:wght@700&family=Smooch&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
           box-sizing: border-box;
 }
 
+/*VARS*/
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -14,7 +16,7 @@ html {
 body {
   overflow-x: hidden;
   z-index: 0;
-  background-color: #21489c;
+  background-color: #000000;
 }
 
 .navbar-expand-xs {
@@ -29,10 +31,6 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
-}
-
-.header {
-  display: none;
 }
 
 .navbar-toggler {
@@ -41,7 +39,7 @@ body {
 
 .navbar-dark .navbar-brand {
   color: #0cb4e2;
-  font-family: 'Water Brush', cursive;
+  font-family: 'Smooch', cursive;
   font-size: 35px;
   margin-left: 2rem;
 }
@@ -60,7 +58,7 @@ body {
 }
 
 .bg-dark {
-  background-color: black !important;
+  background-color: #030303 !important;
 }
 
 p {
@@ -84,13 +82,13 @@ p {
 
 .main {
   width: 100%;
-  background-color: #21489c;
+  background-color: #000000;
   margin-top: 5rem;
   color: black;
 }
 
 .princ {
-  background-image: url(svg/okaaar.svg);
+  background-image: url(svg/test.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: inherit;
@@ -115,7 +113,7 @@ p {
 .princ h1 {
   font-family: 'Oswald', sans-serif;
   color: rgba(62, 187, 221, 0.685);
-  font-size: 10rem;
+  font-size: 7rem;
   margin-bottom: 2rem;
   line-height: 1.2;
 }
@@ -137,10 +135,11 @@ p {
 
 .container1 {
   margin-top: -5rem;
-  background-color: #21489c;
+  background-color: #000000;
 }
 
 .container1 h1 {
+  color: #fff;
   margin-top: 10rem;
   margin-bottom: 1rem;
   font-family: 'Bebas Neue', cursive;
@@ -150,6 +149,7 @@ p {
 }
 
 .container1 p {
+  color: #fff;
   text-align: center;
   font-size: 15px;
   font-weight: 600;
@@ -157,7 +157,7 @@ p {
 }
 
 .seccion1 {
-  background-color: #21489c;
+  background-color: #000000;
   width: 100%;
 }
 
@@ -166,9 +166,10 @@ p {
   display: grid;
   width: 60%;
   height: auto;
-  background-color: #21489c;
+  background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "medias1 medias2 medias3" "medias4 medias5 medias6";
+      grid-template-areas: "medias1 medias2 medias3"
+ "medias4 medias5 medias6";
   margin: 1em auto;
   gap: 2em;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -270,9 +271,10 @@ p {
   display: grid;
   width: 60%;
   height: auto;
-  background-color: #21489c;
+  background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "buzos1 buzos2 buzos3" "buzos6 buzos5 buzos4";
+      grid-template-areas: "buzos1 buzos2 buzos3"
+ "buzos6 buzos5 buzos4";
   margin: 4em  auto;
   gap: 3em;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -363,6 +365,7 @@ p {
 }
 
 .container2 h1 {
+  color: #fff;
   margin-top: 10rem;
   margin-bottom: 1rem;
   font-family: 'Bebas Neue', cursive;
@@ -372,39 +375,15 @@ p {
 }
 
 .container2 p {
+  color: #fff;
   text-align: center;
   font-size: 15px;
   font-weight: 600;
 }
 
-.sass {
-  width: 100%;
-  height: 100px;
-  text-transform: lowercase;
-  font-family: 'Bebas Neue', cursive;
-  color: white;
-  background-color: #080808;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.sass h5 {
-  margin: 10px;
-  padding: 20px;
-  display: inline-block;
-  font-size: 30px;
-}
-
-.sass p {
-  margin: 10px;
-  padding: 20px;
-  display: inline;
-  font-size: 20px;
-}
-
 /*bottom.html*/
 .container3 h1 {
+  color: #fff;
   margin-top: 10rem;
   margin-bottom: 1rem;
   font-family: 'Bebas Neue', cursive;
@@ -414,6 +393,7 @@ p {
 }
 
 .container3 p {
+  color: #fff;
   text-align: center;
   font-size: 15px;
   font-weight: 600;
@@ -430,9 +410,10 @@ p {
   display: grid;
   width: 60%;
   height: auto;
-  background-color: #21489c;
+  background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "short1 short2 short3" "short4 short5 short6";
+      grid-template-areas: "short1 short2 short3"
+ "short4 short5 short6";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   margin: 4em  auto;
@@ -529,6 +510,7 @@ p {
 }
 
 .divns h2 {
+  color: #fff;
   letter-spacing: 10px;
   font-family: 'Bebas Neue', cursive;
   font-size: 45px;
@@ -537,6 +519,7 @@ p {
 }
 
 .divns p {
+  color: #fff;
   text-align: center;
   font-size: 15px;
   font-weight: 600;
@@ -547,9 +530,11 @@ p {
   display: grid;
   width: 60%;
   height: auto;
-  background-color: #21489c;
+  background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "ns1  ns2   ns3" "ns5  ns4  ns6" "ns7  ns8   ns9";
+      grid-template-areas: "ns1  ns2   ns3"
+ "ns5  ns4  ns6"
+ "ns7  ns8   ns9";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
@@ -626,10 +611,7 @@ p {
 /*FOOTER*/
 .footer {
   background-color: #030303;
-}
-
-.containercolor {
-  background-color: #030303;
+  width: 100%;
 }
 
 .col {
@@ -678,7 +660,6 @@ p {
 }
 
 .info p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 2px;
   text-align: left;
   margin: 10px;
@@ -712,7 +693,6 @@ p {
 
 .mb-3 {
   padding-right: 2em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #fff;
 }
 
@@ -782,7 +762,9 @@ p {
     height: 100vh;
   }
   .grid {
-        grid-template-areas: "medias1 medias2 " "medias3 medias6 " "medias4 medias5 ";
+        grid-template-areas: "medias1 medias2 "
+ "medias3 medias6 "
+ "medias4 medias5 ";
     margin: 4em auto;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -792,7 +774,9 @@ p {
     width: 80%;
   }
   .grid2 {
-        grid-template-areas: "buzos1 buzos2 " "buzos3 buzos6" "buzos4 buzos5 ";
+        grid-template-areas: "buzos1 buzos2 "
+ "buzos3 buzos6"
+ "buzos4 buzos5 ";
     margin: 4em  auto;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -802,14 +786,19 @@ p {
             box-shadow: -14px 1px 21px 1px rgba(0, 0, 0, 0.254);
   }
   .grid3 {
-        grid-template-areas: "short1 short2 " "short3 short6" "short4 short5 ";
+        grid-template-areas: "short1 short2 "
+ "short3 short6"
+ "short4 short5 ";
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     width: 90%;
     gap: 15px;
   }
   .grid4 {
-        grid-template-areas: "ns1  ns2 " "ns7  ns8 " "ns9  ns5" "ns6  ns3";
+        grid-template-areas: "ns1  ns2 "
+ "ns7  ns8 "
+ "ns9  ns5"
+ "ns6  ns3";
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
