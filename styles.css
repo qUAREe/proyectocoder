@@ -8,6 +8,7 @@
 }
 
 /*VARS*/
+/*mixins*/
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -168,8 +169,7 @@ p {
   height: auto;
   background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "medias1 medias2 medias3"
- "medias4 medias5 medias6";
+      grid-template-areas: "medias1 medias2 medias3" "medias4 medias5 medias6";
   margin: 1em auto;
   gap: 2em;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -273,8 +273,7 @@ p {
   height: auto;
   background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "buzos1 buzos2 buzos3"
- "buzos6 buzos5 buzos4";
+      grid-template-areas: "buzos1 buzos2 buzos3" "buzos6 buzos5 buzos4";
   margin: 4em  auto;
   gap: 3em;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -379,6 +378,7 @@ p {
   text-align: center;
   font-size: 15px;
   font-weight: 600;
+  padding-bottom: 2em;
 }
 
 /*bottom.html*/
@@ -397,6 +397,7 @@ p {
   text-align: center;
   font-size: 15px;
   font-weight: 600;
+  padding-bottom: 2em;
 }
 
 .grid3 img {
@@ -412,8 +413,7 @@ p {
   height: auto;
   background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "short1 short2 short3"
- "short4 short5 short6";
+      grid-template-areas: "short1 short2 short3" "short4 short5 short6";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   margin: 4em  auto;
@@ -532,9 +532,7 @@ p {
   height: auto;
   background-color: #000000;
   /*Declaro el template area*/
-      grid-template-areas: "ns1  ns2   ns3"
- "ns5  ns4  ns6"
- "ns7  ns8   ns9";
+      grid-template-areas: "ns1  ns2   ns3" "ns5  ns4  ns6" "ns7  ns8   ns9";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
@@ -762,9 +760,7 @@ p {
     height: 100vh;
   }
   .grid {
-        grid-template-areas: "medias1 medias2 "
- "medias3 medias6 "
- "medias4 medias5 ";
+        grid-template-areas: "medias1 medias2 " "medias3 medias6 " "medias4 medias5 ";
     margin: 4em auto;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -774,9 +770,7 @@ p {
     width: 80%;
   }
   .grid2 {
-        grid-template-areas: "buzos1 buzos2 "
- "buzos3 buzos6"
- "buzos4 buzos5 ";
+        grid-template-areas: "buzos1 buzos2 " "buzos3 buzos6" "buzos4 buzos5 ";
     margin: 4em  auto;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -786,19 +780,14 @@ p {
             box-shadow: -14px 1px 21px 1px rgba(0, 0, 0, 0.254);
   }
   .grid3 {
-        grid-template-areas: "short1 short2 "
- "short3 short6"
- "short4 short5 ";
+        grid-template-areas: "short1 short2 " "short3 short6" "short4 short5 ";
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     width: 90%;
     gap: 15px;
   }
   .grid4 {
-        grid-template-areas: "ns1  ns2 "
- "ns7  ns8 "
- "ns9  ns5"
- "ns6  ns3";
+        grid-template-areas: "ns1  ns2 " "ns7  ns8 " "ns9  ns5" "ns6  ns3";
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;

@@ -9,6 +9,28 @@
 $colorbg:#000000;
 $colorprincipal: #fff;
 
+/*mixins*/
+
+@mixin titulo{
+    color: $colorprincipal;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+@mixin textodesc{
+    color: $colorprincipal;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 2em;
+
+}
+
 html{
     overflow-x: hidden ;
     scroll-behavior: smooth;
@@ -122,21 +144,11 @@ p{
 }
 
 .container1 h1{
-    color: $colorprincipal;
-    margin-top: 10rem;
-    margin-bottom: 1rem;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 45px;
-    text-align: center;
-    text-transform: uppercase;
+    @include titulo
 }
 
 .container1 p{
-    color: $colorprincipal;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-    padding-bottom: 2em;
+    @include textodesc
 }
 
 .seccion1{
@@ -255,75 +267,45 @@ p{
 }.buzos6:hover{
     transform: scale(1.1);
 }
-
 .buzos1{
     grid-area: buzos1;
 }
-
 .buzos2{
     grid-area: buzos2;
 }
-
 .buzos3{
     grid-area: buzos3;
 }
-
 .buzos4{
     grid-area: buzos4;
 }
-
 .buzos5{
     grid-area: buzos5;
 }
-
 .buzos6{
     grid-area: buzos6;
 }
-
 .container2 h1{
-    color: $colorprincipal;
-    margin-top: 10rem;
-    margin-bottom: 1rem;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 45px;
-    text-align: center;
-    text-transform: uppercase;
+    @include titulo()
 }
-
 .container2 p{
-    color: $colorprincipal;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
+    @include textodesc()
 }
 
 /*bottom.html*/
 
 .container3 h1{
-    color: $colorprincipal;
-    margin-top: 10rem;
-    margin-bottom: 1rem;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 45px;
-    text-align: center;
-    text-transform: uppercase;
+    @include titulo
 }
 
 .container3 p{
-    color: $colorprincipal;
-    text-align: center;
-    font-size: 15px;
-    font-weight:600;
+    @include textodesc()
 }
-
-
 
 .grid3 img{
     width: 100%;
     box-shadow: 2px -2px 18px 1px rgba(0,0,0,0.75);
-
 }
-
 .grid3{
     display: grid;
     width: 60%;
@@ -342,11 +324,9 @@ p{
     box-shadow: 2px 7px 40px 16px rgba(168, 235, 247, 0.463);
 }
 
-
 .short{
     transition: all 1s;
 }
-
 .short1:hover{
     transform: scale(1.1);
 }.short2:hover{
@@ -360,7 +340,6 @@ p{
 }.short6:hover{
     transform: scale(1.1);
 }
-
 .short1{
     grid-area: short1;
 }
@@ -387,7 +366,6 @@ p{
     width: 100%;
     height: auto;
 }
-
 
 .divns{
     padding-top: 20px;
@@ -426,7 +404,6 @@ p{
     margin: 4em  auto;
     gap: 2em;
 }
-
 .grid4 img{
     width: 100%;
     box-shadow: 2px -2px 18px 1px rgba(0,0,0,0.75);
@@ -435,7 +412,6 @@ p{
 .grid4 img:hover{
     box-shadow: 2px 7px 40px 16px rgba(168, 235, 247, 0.463);
 }
-
 .ns1{
     grid-area: ns1;
 }
@@ -464,9 +440,7 @@ p{
     grid-area: ns9;
 }
 
-
 /*FOOTER*/
-
 .footer{
     background-color: #030303;
     width: 100%;
@@ -489,11 +463,9 @@ p{
     text-transform: lowercase;
     font-size: 50px;
 }
-
 .iconos a{
     display: inline-block;
 }
-
 .iconos i{
     color: rgba(12, 180, 226, 0.685);
     text-decoration: none;
@@ -505,7 +477,6 @@ p{
 .info{
     text-align: center;
 }
-
 .info h3{
     border-bottom: 3px solid  rgba(12, 180, 226, 0.685);
     padding-bottom: 2em;
@@ -520,11 +491,9 @@ p{
     margin:10px;
     padding: 10px 15px 15px 30px;
 }
-
 .contacto{
     text-align: center;
 }
-
 .contacto h3{
     padding-top: 2em;
     padding-bottom: 2em;
@@ -545,12 +514,10 @@ p{
     font-weight: bold;
     
 }
-
 .mb-3{
     padding-right: 2em;
     color: #fff;
 }
-
 @media screen and (max-width:1000px){
     .info h3{
         border-bottom: none;
@@ -578,7 +545,6 @@ p{
     .container{
         width: 100%;
     }
-
     .col h3{
         text-align: center;
     }
@@ -588,7 +554,6 @@ p{
     .col{
         width: 100%;
     }
-
     .div1{
         height: 200px;
         text-align: center;
@@ -612,9 +577,7 @@ p{
         padding: 10px 15px 15px 30px;
     }
 }
-
 @media screen and (max-width:480px){
-
     .seccion1{
         height: 100vh;
     }
@@ -664,8 +627,6 @@ p{
     .ns4{
         display: none;
     }
-
-
     .header{
         height:130px;
     }
@@ -676,7 +637,6 @@ p{
     .liheader{
         margin-right: 3rem;
     }
-
     .princ h1{
         font-size: 5rem;
     }
@@ -686,7 +646,6 @@ p{
     .princ p{
         font-size: .7rem;
     }
-
     .container1 h1{
         text-align: center;
         text-transform: uppercase;
@@ -705,7 +664,6 @@ p{
         letter-spacing: 0;
         text-align: center;
     }
-    
     }
     .contenedor{
         width: 70%;
@@ -733,7 +691,6 @@ p{
         font-size: 20px;
         font-weight: 400;
     }
-    
     @media screen and (max-width:610px)
     {
         .divfooter{
